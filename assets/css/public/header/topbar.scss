@@ -1,0 +1,78 @@
+.m-header{
+  @at-root .el-header{
+    .m-header.m-header-topbar{
+      width: 1190px!important;
+      height: 40px;
+      line-height: 40px;
+      z-index: 9;
+    }
+  }
+  .m-geo {
+    color: #EEEEEE;
+    font-size: 12px;
+    margin-left: 20px;
+
+    .changeCity {
+      border: 1px solid #d47474;
+      border-radius: 12px;
+      color: #E5E5E5;
+      margin: 0 4px;
+      padding: 8px 5px;
+
+      &:hover {
+        border: 1px solid #E5E5E5;
+      }
+    }
+
+    .username {
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+
+  .login{
+    margin: 0 10px 0 -20px;
+    color: #ea9292;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .m-nav{
+    float: right;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    .nav {
+      list-style: none;
+      float: right;
+      height: 40px;
+      >li {
+        float: left;
+        width: 78px;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+
+        a {
+          color: #ea9292;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+
+        &.list:hover {
+          border-top: none;
+          background: #9c0e0e;
+        }
+
+      }
+    }
+  }
+}

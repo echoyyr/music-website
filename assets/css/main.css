@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1252376 */
+  src: url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.eot');
+  src: url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1252376_o2lkpu3ge58.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+.icon-HQ:before {
+  content: "\e61d";
+}
+
+.icon-huiyuan:before {
+  content: "\e672";
+}
+
+
+.layout-blank{
+  background-color: #fff;
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+body *{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  text-align: center;
+}
+
+a, a:focus, a:visited{
+  color: #ea9292;
+}
+a:hover{
+  color: #fff;
+}
+
+
+.logo {
+  width: 243px;
+  height: 218px;
+}
+
+
+.page-enter-active, .page-leave-active{
+  transition: opacity .5s
+}
+.page-enter, .page-leave-active{
+  opacity: 0
+}
