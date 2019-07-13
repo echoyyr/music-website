@@ -2,11 +2,11 @@
     <div class="page-register">
         <article class="header">
             <header>
-                <a href="" class="site-logo"></a>
+                <a href=""><img src="@/assets/logo.png" alt=""></a>
                 <span class="login">
-                    <em class="blod">已有美团账号</em>
+                    <em class="blod">已有网易云音乐账号</em>
                      <a href="/login">
-                       <el-button type="primary" size="small">登陆</el-button>
+                       <el-button type="red" size="small">登陆</el-button>
                      </a>
                 </span>
             </header>
@@ -31,11 +31,8 @@
                     <el-input v-model="ruleform.cpwd" type="password"></el-input>
                 </el-form-item>
                 <el-form-item>
-                   <el-button type="primary" @click="register">同意以下协议并注册</el-button>
+                   <el-button type="red" @click="register">注册</el-button>
                     <div class="error">{{error}}</div>
-                </el-form-item>
-                <el-form-item>
-                    <a class="f1" href="http://www.meituan.com/about/terms" target="_blank">《美团网用户协议》</a>
                 </el-form-item>
             </el-form>
         </section>

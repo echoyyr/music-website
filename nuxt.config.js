@@ -54,6 +54,7 @@ module.exports = {
   */
   build: {
     transpile: [/^element-ui/],
+    // vendor:[THREE],
     /*
     ** You can extend webpack config here
     */

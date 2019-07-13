@@ -32,6 +32,8 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "three": "^0.106.2",
+    "three-css2drender": "^1.0.0",
+    "three-obj-loader": "^1.1.3",
     "three-obj-mtl-loader": "^1.0.3",
     "three-orbitcontrols": "^2.102.1"
   },

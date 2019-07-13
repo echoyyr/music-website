@@ -1,12 +1,3 @@
-<!--<template>-->
-<!--    <div>123</div>-->
-<!--</template>-->
-<!--<script>-->
-<!--    export default {-->
-
-<!--    }-->
-<!--</script>-->
-
 <template>
     <div>
         <div id="container"></div>
@@ -41,7 +32,6 @@
 
 
                 this.scene = new Three.Scene();
-
                 let geometry = new Three.BoxGeometry(0.5, 0.5, 0.5);
                 let material = new Three.MeshNormalMaterial();
 
@@ -51,7 +41,7 @@
 
                 this.renderer = new Three.WebGLRenderer({antialias: true});
                 this.renderer.setSize(container.clientWidth, container.clientHeight);
-                this.renderer.setClearColor(0xFFFFFF);
+                this.renderer.setClearColor(0xffffff);
 
                 this.OrbitControls=new Three.OrbitControls(this.camera, this.renderer.domElement);
 

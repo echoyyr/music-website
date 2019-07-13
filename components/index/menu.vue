@@ -25,24 +25,24 @@ export default {
        type:'food',
        name:"推荐",
        detail:[{
-         title:'美食',
-         child:['代金券','甜点饮品','火锅','自助餐','小吃快餐']
+         title:'全部分类',
+         child:['语种','风格','场景','情感','主题']
        }]
        },
        {
          type:'takeout',
          name:"排行榜",
          detail:[{
-           title:'外卖',
-           child:['美团外卖']
+           title:'云音乐特色榜',
+           child:['云音乐飙升榜']
          }]
        },
        {
          type: 'hotel',
          name: '歌单',
          detail: [{
-           title: "酒店星级",
-           child: ["经济型", "舒适/三星", "高档/四星", "豪华/五星"]
+           title: "全部分类",
+           child: ['语种','风格','场景','情感','主题']
          }]
        },
        {
@@ -50,39 +50,39 @@ export default {
          name:"主播电台",
          detail:[
            {
-           title:'热映电影',
-           child:['千与千寻','玩具总动员4','蜘蛛侠']
+           title:'推荐节目',
+           child:['创作/翻唱','3D|电子','情感调频']
            },
            {
-             title:'热门影院',
-             child:['太平洋电影城','万达影城']
+             title:'节目排行榜',
+             child:['外语世界','亲子宝贝']
            }
          ]
        }, {
-         type:'movie',
+         type:'singer',
          name:"歌手",
          detail:[
            {
-             title:'热映电影',
-             child:['千与千寻','玩具总动员4','蜘蛛侠']
+             title:'入驻歌手',
+             child:['张惠妹','Fine乐团','洪启']
            },
            {
-             title:'热门影院',
-             child:['太平洋电影城','万达影城']
+             title:'热门歌手',
+             child:['薛之谦','花粥']
            }
          ]
        },
        {
-         type:'movie',
+         type:'xindie',
          name:"新碟上架",
          detail:[
            {
-             title:'热映电影',
-             child:['千与千寻','玩具总动员4','蜘蛛侠']
+             title:'热门新碟',
+             child:['忘记拥抱','光之海','BTS']
            },
            {
-             title:'热门影院',
-             child:['太平洋电影城','万达影城']
+             title:'全部新碟',
+             child:['JUST','MOSHI']
            }
          ]
        },

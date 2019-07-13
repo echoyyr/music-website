@@ -6,7 +6,7 @@
     </el-col>
     <el-col :span="6">
       <div class="m-life-login">
-        <h4><photo/></h4>
+        <h1><photo/></h1>
         <p class="m-lfe-login-name">Hi!你好</p>
         <p><nuxt-link to="/register"><el-button roudsize="medium">注册</el-button></nuxt-link></p>
         <p><nuxt-link to="/login"><el-button roudsize="medium">立即登录</el-button></nuxt-link></p>

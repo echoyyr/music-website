@@ -1,13 +1,14 @@
 .page-register {
   .header {
-    border-bottom: 2px solid #2bb8aa;
+    //border-bottom: 2px solid #2bb8aa;
     min-width: 980px;
     color: #666;
 
     header {
       margin: 0 auto;
-      padding: 10px 0;
+
       width: 980px;
+      background-color: #242424;
 
       .site-logo {
         display: inline-block;
@@ -16,11 +17,11 @@
         height: 36px;
         text-indent: -9999px;
         background-position: -669px -748px;
-        background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
       }
 
       .login {
         float: right;
+        padding: 10px 20px;
       }
 
       .bold {

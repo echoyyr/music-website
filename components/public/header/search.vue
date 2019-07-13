@@ -30,7 +30,7 @@
        </p>
        <ul class="nav">
          <li>
-           <nuxt-link to="/new" class="takeout">发现音乐</nuxt-link>
+           <nuxt-link to="/findmusic" class="takeout">发现音乐</nuxt-link>
          </li>
          <li>
            <nuxt-link to="/movie" class="movie">我的音乐</nuxt-link>
